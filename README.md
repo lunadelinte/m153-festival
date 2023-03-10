@@ -1,7 +1,6 @@
 # Projekt Festival-Datenbank
 
-Für ein Musikfestival möchten wir eine Datenbank modellieren. Die Datenbank sollte vorallem  Artist- & Bühnemmanagement, Besucher- & Ticketmanagement und Personalmanagement beinhalten.
-
+Für ein Musikfestival möchten wir eine Datenbank modellieren. Die Datenbank sollte vorallem Artist- & Bühnemmanagement, Besucher- & Ticketmanagement und Personalmanagement beinhalten.
 
 ## Artist- & Bühnenmanagement
 
@@ -28,16 +27,15 @@ Es würde Sinn machen, dass wir für die Besucher eine Tabelle erstellen. Diese 
 
 ### Anforderungen
 
-- Ein Besucher hat ein Ticket in sienem Namen
+- Ein Besucher hat ein Ticket in seinem Namen
 - Der Besucher sollte nur an den Tagen für die er ein Ticket gekauft hat, Eintritt haben
 - Es sollte VIP-Tickets geben die zutritt geben zu VIP-Bereichen
 - Ein Besucher sollte nicht mehrere Tickets kaufen können die das gleiche Anbieten
-- Ein Besucher sollte für Mehrere Leute ein Ticket kaufen können -> Person die in Rechnung gestellt wird kann Besucher sein, muss aber nicht umbedingt sein
-
+- Ein Besucher sollte für Mehrere Leute ein Ticket kaufen können -> Person die in Rechnung gestellt wird kann Besucher sein, muss aber nicht unbedingt sein
 
 ## Personalmanagement
 
-Das Personal, hat eine eigene Tabelle, die in relation zu einer Tabelle Rolle stehen könnte. Somit können wir einfach eine übersicht zu der Arbeitsaufteilung generieren. Zusätzlich können wir einen Arbeitsplan erstellen der in einer Beziehung zu der Mitarbeitertabelle steht und auch noch eine Beziehung zu einer Tabelle Schichten hat.
+Das Personal, hat eine eigene Tabelle, die in Relation zu einer Tabelle Rolle stehen könnte. Somit können wir einfach eine Übersicht zu der Arbeitsaufteilung generieren. Zusätzlich können wir einen Arbeitsplan erstellen der in einer Beziehung zu der Mitarbeitertabelle steht und auch noch eine Beziehung zu einer Tabelle Schichten hat.
 
 ### Anforderungen
 
