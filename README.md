@@ -77,3 +77,16 @@ Das Personal, hat eine eigene Tabelle, die in Relation zu einer Tabelle Rolle st
 ##### Erfassung eines neuen Mitarbeiters:
 
 - Manager erfasst einen neuen Mitarbeiter
+
+##### Entfernen eines Mitarbeiters aus dem System:
+
+- Mitarbeiter wird gekündet oder kündet und wird aus dem Sytem entfernt
+
+##### Manager teilt einen Mitarbeiter als Reserve ein
+
+- Mitarbeiter wird als Reserve eingeteilt
+
+##### Anwesenheit notieren:
+
+- Nach einer Schicht kann die Anwesenheit eines Mitarbeiters eingetragen werden
+
