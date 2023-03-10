@@ -26,7 +26,7 @@
 - Das Festival-Management-System ist eingerichtet und einsatzbereit.
 - Der Primärakteur hat Zugang zum System und ist autorisiert, Künstler zu buchen und ihre Auftritte zu planen.
 
-##Nachbedingungen:
+## Nachbedingungen:
 
 - Die gebuchten Künstler und ihre Auftritte sind im System erfasst und können für die Planung und das Management des Festivals genutzt werden.
 
