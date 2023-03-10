@@ -46,4 +46,9 @@ Das Personal, hat eine eigene Tabelle, die in relation zu einer Tabelle Rolle st
 - Ein Mitarbeiter sollte nicht doppelt gebucht werden können
 - Ein Mitarbeiter sollte nur auf Schichten gebucht werden können die seiner Rollte entspricht
 - Potentiell könnte ein Mitarbeiter eine Backuprolle haben, so dass er auch auf Schichten gebucht werden kann die nicht seiner Hauptrolle entsprechen
-- Ein Mitarbeiter sollte Unique sein aber mehrere Rollen füllen können?
+- Ein Mitarbeiter sollte mehrere Rollen füllen können?
+
+
+## Erste graphische Darstellung
+
+![](../uerberblick_erd.png)
