@@ -50,3 +50,30 @@ Das Personal, hat eine eigene Tabelle, die in Relation zu einer Tabelle Rolle st
 ## Erste graphische Darstellung
 
 ![](../uerberblick_erd.png)
+
+
+## Use Cases
+
+### Use case 1
+
+#### **Umfang:** Festival-Datenbank
+#### **Ebene:** Anwenderziel
+#### **Primärakteur:** Personalmanager
+#### **Stakeholder und Interessen:**
+
+- Personalmanager: möchte einen klaren Überblick über das Personal und dessen Schichten, dessen Rollen und dessen Arbeitszeiten
+- Personal: möchte genaue Angaben zu ihren Arbeitszeiten & Rollen
+- Buchhaltung: Möchte genaue Angaben zu der Arbeitszeit für die Lohnrechnung
+- Manager: Will eine reibungslosen Ablauf des Personalmanagements
+- Unternehmen: Möchte einen effizienten einsatz des Personals haben
+- Behörden: Wollen genaue Angaben zu den Arbeitszeiten, damit Steuertechnisch und Arbeitsgesetzlich alles kontrolliert werden kann
+
+#### Abläufe
+
+##### Schichtzuteilung:
+
+- Manager teilt einem Mitarbeiter eine Schicht zu
+
+##### Erfassung eines neuen Mitarbeiters:
+
+- Manager erfasst einen neuen Mitarbeiter
