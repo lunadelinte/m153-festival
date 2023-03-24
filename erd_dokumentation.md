@@ -14,6 +14,10 @@ Auf der Tabelle Zeitplan existieren 2 Indezes, einer bezogen auf Timeslot und BÃ
 ![](assets/unique_buehne.png)
 ![](assets/unique_kuenstler.png)
 
+
+## Kundenmanagement / Ticketmanagement
+
+
 ## Schnittstelle Personen
 
 ### BÃ¼hnenmanagement
