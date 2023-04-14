@@ -282,13 +282,13 @@ Die Tabelle Mitarbeiter ist mit der Tabelle "tbl_person" verbunden. Somit teilt 
 
 # Zeitplan
 
-| Meilenstein                          | Datum          |
-| ------------------------------------| --------------|
-| Projektstart                        | 1. März 2023   |
-| Abschluss der Planung               | 10. März 2023  |
-| Fertigstellung Entwurf              | 17. März 2023  |
-| Erste Überprüfung                   | 24. März 2023  |
-| Überarbeitung des Entwurfs          | 31. März 2023  |
-| Testdaten einfügen & Tests durchführen | 7. April 2023 |
-| Fertigstellung des Endprodukts      | 14. April 2023 |
-| Abschlusspräsentation               | 21. April 2023 |
+| Meilenstein                          | Geplantes Datum          | Effektives Datum     |
+| ------------------------------------| --------------| ---------------------|
+| Projektstart                        | 1. März 2023   | 1. März 2023   |
+| Abschluss der Planung               | 10. März 2023  | 10. März 2023  |
+| Fertigstellung Entwurf              | 17. März 2023  | 17. März 2023  |
+| Erste Überprüfung                   | 24. März 2023  | 24. März 2023  |
+| Überarbeitung des Entwurfs          | 31. März 2023  | 31. März 2023  |
+| Testdaten einfügen & Tests durchführen | 7. April 2023 | 7. April 2023 |
+| Fertigstellung des Endprodukts      | 14. April 2023 | 14. April 2023 |
+| Abschlusspräsentation               | 21. April 2023 | 21. April 2023 |
