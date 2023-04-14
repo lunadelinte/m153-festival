@@ -2,9 +2,9 @@
 
 Für ein Musikfestival möchten wir eine Datenbank modellieren. Die Datenbank sollte vorallem Artist- & Bühnemmanagement, Besucher- & Ticketmanagement und Personalmanagement beinhalten.
 
-# Use Cases
+# Anforderungsanalyse
 
-## Use Case Personalmanager
+## Anforderungen Personalmanagement
 
 ### **Umfang:** Festival-Datenbank
 ### **Ebene:** Anwenderziel
@@ -44,9 +44,9 @@ Für ein Musikfestival möchten wir eine Datenbank modellieren. Die Datenbank so
 
 - Mitarbeiter kann Schicht nicht realisieren und daher wird die Reserve benachrichtigt
 
-## Use Case für Artistbucher in der Festival-Datenbank:
+## Anforderungen Artistbuchung
 
-### Use-Case-Name:
+### Primärakteur
 
 - Artistbucher für Festival-Datenbank
 
@@ -116,11 +116,11 @@ Für ein Musikfestival möchten wir eine Datenbank modellieren. Die Datenbank so
 - Die Artistbucher-Funktion ist ein wichtiger Bestandteil des Festival-Management-Systems und trägt wesentlich zur erfolgreichen Planung und Durchführung des Festivals bei.
 - Durch die Nutzung des Systems können Doppelbuchungen vermieden und die Verfügbarkeit von Künstlern und Bühnen effektiv verwaltet werden.
 
-## Ticketverkaufsmanagement 
+## Anforderungen Tickertverkauf
 
-### Use-Case-Name:
+### Primärakteur
 
-- Ticketverkaufsmanagement für Festival-Datenbank
+- Ticketverkaufsmanager
 
 ### Umfang:
 
