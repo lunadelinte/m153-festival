@@ -1,35 +1,42 @@
 -- query 1 --
 
-SELECT Name
-FROM tbl_kuenstler;
+SELECT Name, Genre FROM tbl_kuenstler;
 
 
 -- query 2 --
 
-SELECT k.Name
-FROM tbl_kuenstler k
-JOIN tbl_zeitplan z ON k.Kuenstler_ID = z.Kuenstler_ID
-WHERE z.Datum = '2023-07-15';
+SELECT t.Anfangszeit, t.Endzeit, k.Name, b.Buehne 
+FROM tbl_zeitplan z
+JOIN tbl_timeslot t ON t.timeslot_id = z.timeslot_id
+JOIN tbl_kuenstler k ON k.kuenstler_id = z.kuenstler_id
+JOIN tbl_buehne b ON b.buehne_id = z.buehne_id
+JOIN tbl_tage_ticket tt ON tt.ticket_id = z.ticket_id
+JOIN tbl_tage ta ON ta.tage_id = tt.tage_id
+WHERE ta.Tag = 'Friday';
 
 
 -- query 3 --
 
-SELECT Startzeit, Endzeit
-FROM tbl_zeitplan
-WHERE Kuenstler_ID = 1 AND Datum = '2023-07-15';
+SELECT ta.Tag, k.Name
+FROM tbl_zeitplan z
+JOIN tbl_kuenstler k ON k.kuenstler_id = z.kuenstler_id
+JOIN tbl_buehne b ON b.buehne_id = z.buehne_id
+JOIN tbl_tage_ticket tt ON tt.ticket_id = z.ticket_id
+JOIN tbl_tage ta ON ta.tage_id = tt.tage_id
+WHERE k.Auftrittstyp = 'Hauptact';
+
 
 -- query 4 --
 
-SELECT b.Name
-FROM tbl_buehne b
-JOIN tbl_zeitplan z ON b.Buehne_ID = z.Buehne_ID
-WHERE z.Kuenstler_ID = 1 AND z.Datum = '2023-07-15';
+SELECT b.Buehne, k.Name
+FROM tbl_zeitplan z
+JOIN tbl_kuenstler k ON k.kuenstler_id = z.kuenstler_id
+JOIN tbl_buehne b ON b.buehne_id = z.buehne_id;
+
 
 
 -- query 5 --
 
-SELECT k.Name, z.Datum, z.Startzeit, z.Endzeit
-FROM tbl_kuenstler k
-JOIN tbl_zeitplan z ON k.Kuenstler_ID = z.Kuenstler_ID
-JOIN tbl_buehne b ON z.Buehne_ID = b.Buehne_ID
-WHERE b.Name = 'Main Stage';
+SELECT Land, COUNT(*) AS Number_of_artists 
+FROM tbl_kuenstler
+GROUP BY Land;
