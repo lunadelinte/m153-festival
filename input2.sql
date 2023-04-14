@@ -1,3 +1,5 @@
+USE `festival_db`;
+
 INSERT INTO tbl_rolle (Rolle)
 VALUES ('Sicherheitspersonal'), ('Reinigungspersonal');
 
