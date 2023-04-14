@@ -116,7 +116,7 @@ Für ein Musikfestival möchten wir eine Datenbank modellieren. Die Datenbank so
 - Die Artistbucher-Funktion ist ein wichtiger Bestandteil des Festival-Management-Systems und trägt wesentlich zur erfolgreichen Planung und Durchführung des Festivals bei.
 - Durch die Nutzung des Systems können Doppelbuchungen vermieden und die Verfügbarkeit von Künstlern und Bühnen effektiv verwaltet werden.
 
-## Anforderungen Tickertverkauf
+## Anforderungen Ticketverkauf
 
 ### Primärakteur
 
@@ -182,6 +182,18 @@ Für ein Musikfestival möchten wir eine Datenbank modellieren. Die Datenbank so
 - Das Ticketverkaufsmanagement ist ein wichtiger Bestandteil des Festival-Management-Systems und trägt wesentlich zur erfolgreichen Durchführung des Festivals bei.
 - Durch die Nutzung des Systems können der Verkauf und die Überwachung von Tickets effektiv verwaltet werden, was dazu beiträgt, dass das Festival reibungslos abläuft und die Zufriedenheit der Teilnehmer erhöht wird.
 
+# Arbeitsschritte
+
+1. Analyse der Anforderungen an die Festival-Datenbank
+2. Identifizierung der beteiligten Stakeholder und deren Interessen
+3. Definition von Anwenderzielen und Primärakteuren
+4. Analyse der Anforderungen an das Personalmanagement-Modul und Definition der erforderlichen Funktionen und Abläufe
+5. Analyse der Anforderungen an das Artistbuchungsmodul und Definition der erforderlichen Funktionen und Abläufe
+6. Erstellung eines Datenbankmodells, das alle erforderlichen Informationen und Beziehungen zwischen den verschiedenen Modulen enthält
+7. Generieren der Datenbank
+8. Einfügen von Testdaten
+9. Durchführung von Tests, um sicherzustellen, dass alle Funktionen wie erwartet funktionieren.
+
 
 # Überblick ERD
 
@@ -243,3 +255,40 @@ Die zwei Tabellen "tbl_kauefer" und "tbl_besucher" sind direkt mit der Tabelle P
 ### Personalmanagement
 
 Die Tabelle Mitarbeiter ist mit der Tabelle "tbl_person" verbunden. Somit teilt auch dieses System mit den anderen zwei Systemen den gleichen Kern.
+
+
+# Testfälle
+
+| Testfall | Schritte | Erwartetes Ergebnis | Ergebnis |
+| -------- | ------- | ------------------ | -------- |
+| Neuer Mitarbeiter | 1. Gebe die relevanten Informationen für einen neuen Mitarbeiter in das System ein. | Der neue Mitarbeiter wird in der Datenbank gespeichert. | Positiv |
+| | 2. Überprüfe, ob der neue Mitarbeiter in der Datenbank gespeichert wurde. | Der neue Mitarbeiter ist in der Datenbank vorhanden. | Positiv|
+| | 3. Stelle sicher, dass die Informationen, die vom System zurückgegeben werden, korrekt sind. | Die zurückgegebenen Informationen sind korrekt. |Positiv |
+| Mitarbeiter als Reserve eintragen | 1. Wähle einen Mitarbeiter aus und markiere ihn als Reserve. | Der Mitarbeiter wird als Reserve eingetragen. | Positiv|
+| | 2. Überprüfe, ob der Mitarbeiter erfolgreich als Reserve eingeteilt wurde. | Der Mitarbeiter ist als Reserve eingetragen. |Positiv |
+| | 3. Stelle sicher, dass der Mitarbeiter in der Datenbank entsprechend gekennzeichnet ist. | Der Mitarbeiter ist in der Datenbank als Reserve gekennzeichnet. | Positiv|
+| Mitarbeiter einer Schicht zuweisen | 1. Wähle einen Mitarbeiter aus und teile ihm eine Schicht zu. | Der Mitarbeiter wird der Schicht zugewiesen. | Positiv|
+| | 2. Überprüfe, ob der Mitarbeiter erfolgreich der Schicht zugeordnet wurde. | Der Mitarbeiter ist der Schicht zugewiesen. | Positiv|
+| | 3. Stelle sicher, dass die Schichtinformationen in der Datenbank korrekt sind. | Die Schichtinformationen sind in der Datenbank korrekt. | Positiv|
+| Anwesenheit eines Mitarbeiters notieren | 1. Wähle einen Mitarbeiter aus und markiere ihn als anwesend oder abwesend nach einer Schicht. | Die Anwesenheitsinformationen werden in der Datenbank gespeichert. |Positiv |
+| | 2. Überprüfe, ob die Anwesenheitsinformationen in der Datenbank korrekt gespeichert wurden. | Die Anwesenheitsinformationen sind korrekt gespeichert. |Positiv |
+| | 3. Stelle sicher, dass die Informationen, die vom System zurückgegeben werden, korrekt sind. | Die zurückgegebenen Informationen sind korrekt. | Positiv|
+| Mitarbeiter entfernen | 1. Entferne einen Mitarbeiter aus dem System. | Der Mitarbeiter ist nicht mehr in der Datenbank vorhanden. |Positiv |
+| | 2. Überprüfe, ob der Mitarbeiter nicht mehr in der Datenbank vorhanden ist. | Der Mitarbeiter ist nicht mehr in der Datenbank vorhanden. |Positiv |
+| | 3. Stelle sicher, dass alle Informationen über den Mitarbeiter und seine Schichten aus der Datenbank entfernt wurden. | Alle Informationen über den Mitarbeiter und seine Schichten wurden aus der Datenbank entfernt. |Positiv |
+| Abmeldung/Krankheitsmeldung | 1. Ein Mitarbeiter meldet sich krank oder meldet sich ab und benachrichtigt die Reserve. | Die Abwesenheitsinformationen werden in der Datenbank gespeichert. | Positiv|
+| | 2. Überprüfe, ob die Informationen über die Abwesenheit des Mitarbeiters in der Datenbank gespeichert wurden. | Die Abwesenheitsinformationen sind korrekt gespeichert. | Positiv|
+| | 3. Stelle sicher, dass die Reserve korrekt benachrichtigt wurde. | Die Reserve wurde korrekt benachrichtigt. | Positiv|
+
+# Zeitplan
+
+| Meilenstein                          | Datum          |
+| ------------------------------------| --------------|
+| Projektstart                        | 1. März 2023   |
+| Abschluss der Planung               | 10. März 2023  |
+| Fertigstellung Entwurf              | 17. März 2023  |
+| Erste Überprüfung                   | 24. März 2023  |
+| Überarbeitung des Entwurfs          | 31. März 2023  |
+| Testdaten einfügen & Tests durchführen | 7. April 2023 |
+| Fertigstellung des Endprodukts      | 14. April 2023 |
+| Abschlusspräsentation               | 21. April 2023 |
