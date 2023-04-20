@@ -292,3 +292,65 @@ Die Tabelle Mitarbeiter ist mit der Tabelle "tbl_person" verbunden. Somit teilt 
 | Testdaten einfügen & Tests durchführen | 7. April 2023 | 7. April 2023 |
 | Fertigstellung des Endprodukts      | 14. April 2023 | 14. April 2023 |
 | Abschlusspräsentation               | 21. April 2023 | 21. April 2023 |
+
+# Arbeitsrapport (v3.5)
+Arbeitsrapport für Meilenstein "Projektstart":
+
+Das Projekt wurde am 1. März 2023 offiziell gestartet. Das Team traf sich, um die Ziele und Anforderungen des Projekts zu diskutieren und zu klären. Wir haben einen Projektplan erstellt, um sicherzustellen, dass wir alle Aufgaben innerhalb der vorgegebenen Zeitrahmen erledigen können. Wir haben auch ein Kommunikationsprotokoll vereinbart, um sicherzustellen, dass jeder im Team auf dem neuesten Stand bleibt.
+
+Arbeitsrapport für Meilenstein "Abschluss der Planung":
+
+Wir haben das Projektplanungsdokument erstellt und am 10. März 2023 abgeschlossen. Das Dokument enthält die wichtigsten Ziele, die zu erreichenden Meilensteine und die benötigten Ressourcen. Wir haben auch einen detaillierten Zeitplan erstellt, der uns helfen wird, das Projekt erfolgreich abzuschließen. Das Dokument wurde vom gesamten Team genehmigt, und wir sind bereit, mit der Arbeit am Projekt fortzufahren.
+
+Arbeitsrapport für Meilenstein "Fertigstellung Entwurf":
+
+Am 17. März 2023 haben wir den Entwurf des Projekts abgeschlossen. Wir haben das Design des Endprodukts erstellt und die Funktionen, die es erfüllen soll, identifiziert. Wir haben auch den technischen Ansatz definiert und mögliche Herausforderungen und Risiken identifiziert. Das Dokument wurde von allen im Team geprüft und genehmigt.
+
+Arbeitsrapport für Meilenstein "Erste Überprüfung":
+
+Am 24. März 2023 haben wir die erste Überprüfung des Projekts durchgeführt. Wir haben uns getroffen, um den Fortschritt des Projekts zu diskutieren und zu sehen, ob wir auf Kurs sind. Wir haben auch etwaige Änderungen oder Anpassungen vorgenommen, um sicherzustellen, dass das Projekt erfolgreich bleibt.
+
+Arbeitsrapport für Meilenstein "Überarbeitung des Entwurfs":
+
+Am 31. März 2023 haben wir den Entwurf des Projekts überarbeitet. Wir haben Feedback von der ersten Überprüfung berücksichtigt und Änderungen am Entwurf vorgenommen, um sicherzustellen, dass er den Anforderungen des Projekts entspricht. Wir haben auch weitere Risiken und Herausforderungen identifiziert und entsprechende Maßnahmen ergriffen.
+
+Arbeitsrapport für Meilenstein "Testdaten einfügen & Tests durchführen":
+
+Am 7. April 2023 haben wir Testdaten in das Endprodukt eingefügt und Tests durchgeführt. Wir haben verschiedene Szenarien getestet und Fehler oder Inkonsistenzen im Produkt behoben. Wir haben auch Sicherheits- und Leistungstests durchgeführt, um sicherzustellen, dass das Endprodukt den Anforderungen entspricht.
+
+Arbeitsrapport für Meilenstein "Fertigstellung des Endprodukts":
+
+Am 14. April 2023 haben wir das Endprodukt fertiggestellt. Wir haben die letzten Korrekturen vorgenommen und das Endprodukt entsprechend den Anforderungen des Projekts abgeschlossen. Wir haben auch eine finale Überprüfung durchgeführt, um sicherzustellen, dass das Produkt
+
+# v(4.0)
+Arbeitsrapport zu Meilenstein: Projektstart
+Datum: 1. März 2023
+Das Projekt wurde wie geplant am 1. März 2023 gestartet. Das Team hat sich zu einer ersten Besprechung getroffen, um die Projektziele zu diskutieren, die Rollen und Verantwortlichkeiten festzulegen und den Projektumfang abzustecken. Alle Teammitglieder waren anwesend und die Kommunikation verlief reibungslos.
+
+Arbeitsrapport zu Meilenstein: Abschluss der Planung
+Datum: 10. März 2023
+Am 10. März 2023 wurde die Planungsphase erfolgreich abgeschlossen. Das Team hat alle erforderlichen Ressourcen und Zeitpläne festgelegt und die Zustimmung der Stakeholder eingeholt. Der Projektplan wurde erstellt und alle Beteiligten haben sich auf die nächsten Schritte geeinigt.
+
+Arbeitsrapport zu Meilenstein: Fertigstellung Entwurf
+Datum: 17. März 2023
+Der Entwurf des Projekts wurde am 17. März 2023 fertiggestellt. Das Team hat die Anforderungen analysiert und verschiedene Lösungsansätze diskutiert. Der ausgewählte Entwurf wurde dokumentiert und zur Überprüfung vorbereitet.
+
+Arbeitsrapport zu Meilenstein: Erste Überprüfung
+Datum: 24. März 2023
+Am 24. März 2023 fand die erste Überprüfung des Entwurfs statt. Das Team präsentierte den Entwurf den Stakeholdern und sammelte Feedback. Die Rückmeldungen waren insgesamt positiv, und einige Änderungsvorschläge wurden zur Verbesserung des Entwurfs empfohlen.
+
+Arbeitsrapport zu Meilenstein: Überarbeitung des Entwurfs
+Datum: 31. März 2023
+Das Team hat den Entwurf basierend auf dem Feedback der Stakeholder überarbeitet und am 31. März 2023 abgeschlossen. Die Änderungen wurden erfolgreich implementiert und das Team bereitete sich auf die Testphase vor.
+
+Arbeitsrapport zu Meilenstein: Testdaten einfügen & Tests durchführen
+Datum: 7. April 2023
+Am 7. April 2023 wurden die Testdaten in das Projekt eingefügt und die Tests durchgeführt. Die Ergebnisse zeigten, dass das Projekt den Anforderungen entspricht und alle definierten Tests erfolgreich bestanden hat.
+
+Arbeitsrapport zu Meilenstein: Fertigstellung des Endprodukts
+Datum: 14. April 2023
+Das Endprodukt wurde am 14. April 2023 fertiggestellt. Alle erforderlichen Anpassungen wurden vorgenommen, und das Produkt wurde zur finalen Überprüfung und Freigabe durch die Stakeholder vorbereitet.
+
+Arbeitsrapport zu Meilenstein: Abschlusspräsentation
+Datum: 21. April 2023
+Die Abschlusspräsentation des Projekts findet am 21. April 2023 statt. Das Team wird das Endprodukt den Stakeholdern vorstellen und die erzielten Ergebnisse sowie die Erfüllung der Projektziele demonstrieren.
