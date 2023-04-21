@@ -27,12 +27,12 @@ JOIN tbl_ticketberechtigungen ON tbl_ticket_ticketberechtigungen.ticketberechtig
 
 -- query 5 --
 
-SELECT p.Vorname, p.Nachname
+SELECT p.Vorname, p.Nachname, t.ticket_id,  tb.Berechtigung
 FROM tbl_person p
 JOIN tbl_besucher b ON p.person_id = b.person_id
 JOIN tbl_ticket t ON b.besucher_id = t.besucher_id
 JOIN tbl_ticket_ticketberechtigungen tt ON t.ticket_id = tt.ticket_id
-JOIN tbl_ticketberechtigungen tb ON tt.ticketberechtigungen_id = tb.ticketberechtigungen_id
+JOIN tbl_ticketberechtigungen tb ON tt.ticketberechtigungen_id = tb.ticketberechtigungen_id;
 WHERE tb.Berechtigung = 'VIP' OR tb.Berechtigung = 'Backstage';
 
 
