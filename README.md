@@ -200,7 +200,7 @@ Für ein Musikfestival möchten wir eine Datenbank modellieren. Die Datenbank so
 ## Bühnenmanagement
 
 
-![Buehnenmanagement](assets/buehnenmanagement.png)
+![Buehnenmanagement](assets/buehnenmanagement2.png)
 
 Für das Bühnenmanagement war unser Ziel dass wir Künstler Buchen können und sie auf die verschiedenen Bühnen mit einem Zeitplan verteilen können.
 
@@ -214,7 +214,7 @@ Auf der Tabelle Zeitplan existieren 2 Indezes, einer bezogen auf Timeslot und B�
 
 ## Kundenmanagement / Ticketmanagement
 
-![Kundenmangement](assets/kundenmanagement.png)
+![Kundenmangement](assets/kundenmanagement2.png)
 
 Für das Kundenmanagement war das Ziel dass wir einen Datenstruktur bieten, mit der Kunden Tickets in einem Onlineshop erwerben können.
 
@@ -227,7 +227,7 @@ Es existieren keine spezielle Constraints sondern nur einzelne Not-Null- und Uni
 
 ## Personalmanagement
 
-![Personalmanagement](assets/personalmanagement.png)
+![Personalmanagement](assets/personalmanagement2.png)
 Screenshot noch anpassen!
 
 Unser Ziel für das Personalmanagement war, dass die Datenbank die primäre und sekundäre Rolle eines Mitarbeiters erfassen kann und den Arbeitsplan mit Schicht für ein gewisses Datum speichern kann.
