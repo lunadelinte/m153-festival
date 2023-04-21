@@ -256,6 +256,9 @@ Die zwei Tabellen "tbl_kauefer" und "tbl_besucher" sind direkt mit der Tabelle P
 
 Die Tabelle Mitarbeiter ist mit der Tabelle "tbl_person" verbunden. Somit teilt auch dieses System mit den anderen zwei Systemen den gleichen Kern.
 
+### Tesdaten Generierung mithilfe ChatGPT
+Wir haben unsere Testfälle mithilfe von ChatGPT erstellt, indem wir die Datenbankstruktur an ChatGPT übermittelt und anschließend den folgenden Prompt verwendet haben: "Generiere Testdaten (maximal 4 pro Tabelle) für diese Datenbank als SQL-Code. Wenn möglich, füge Inserts in einer Zeile ein (BITTE KEINEN REDUNDANTEN CODE!):".
+
 
 # Testfälle
 
